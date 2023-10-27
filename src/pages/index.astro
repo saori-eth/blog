@@ -1,9 +1,91 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import heart from '../images/heart.png';
+import {Image} from 'astro:assets'
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<p>hi</p>
-	</main>
+<Layout title="Saori">
+  <div class="min-h-screen p-8 flex flex-col justify-center items-center">
+    <header class="mb-4 flex justify-center items-center">
+      <Image id="heart1" src={heart} alt="heart" width="100" height="100" class="m-4 hidden md:block" />
+      <h1 class="header-style">
+        Saori Makishima
+      </h1>
+      <Image id="heart2" src={heart} alt="heart" width="100" height="100" class="m-4 hidden md:block" />
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-screen-lg mx-auto">
+
+      <section id="about" class="section-style col-span-3 md:col-span-3">
+        <h2 class=" mb-2">About Me</h2>
+        <p>
+          I began teaching myself to code late 2021. After trading crypto onchain for the previous year, it felt like a natural next step to learn to automate things I was racing to click on.
+        </p>
+        <br>
+        <p>
+          I mostly focused on Solidity and Javascript. My learnings were accelertated by co-founding a profitable NFT company with a 10 year plus web dev veteran. My initial contribution was the smart contract, but I continued to code js on the frontend and backend until leaving.
+        </p>
+        <br>
+        <p>
+          Saori is an account which I created to get a fresh perspective on the crypto industry, and have a lower pressure environment to experiment in.
+        </p>
+      </section>
+
+      <section id="libs" class="section-style col-span-3 md:col-span-1">
+        <h2 class=" mb-2">Favorite Libs</h2>
+        <ul>
+          <li>Drizzle ORM</li>
+          <li>ethers.js</li>
+          <li>wagmi</li>
+          <li>Viem</li>
+          <li>Rainbow Kit</li>
+          <li>three.js</li>
+          <li>Tailwind</li>
+        </ul>
+      </section>
+
+      <section id="frameworks" class="section-style col-span-3 md:col-span-1">
+        <h2 class="mb-2">Favorite Frameworks / Tools</h2>
+        <ul>
+          <li>Forge</li>
+          <li>next.js</li>
+          <li>Turborepo</li>
+          <li>pnpm</li>
+          <li>Planetscale</li>
+        </ul>
+      </section>
+
+      <section id="links" class="section-style col-span-3 md:col-span-1">
+        <h2 class="mb-2">Links</h2>
+        <ul>
+          <li class="hover:underline">
+            <a href="https://github.com/saori-eth" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/saori_eth" target="_blank">Twitter</a>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+  </div>
 </Layout>
+
+<style>
+  h1:hover {
+    transform: scale(1.05);
+  }
+  #heart1:hover, #heart2:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  .section-style {
+    @apply bg-gray-800 bg-opacity-60 p-4 rounded-lg border border-white;
+  }
+  .header-style {
+    @apply text-6xl font-extrabold transition-all p-4 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+  }
+  .image-style {
+    @apply m-4;
+  }
+</style>
