@@ -1,8 +1,9 @@
 ---
+import Header from "../components/Header.astro";
+import '@fontsource/ibm-plex-mono';
 interface Props {
 	title: string;
 }
-
 const { title } = Astro.props;
 ---
 
@@ -18,6 +19,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+    <Header />
     <div id="blog" class="p-4 flex flex-col items-center justify-center min-h-screen text-center">
       <h1 class="text-4xl font-bold">{title}</h1>
 		<slot />
@@ -25,12 +27,12 @@ const { title } = Astro.props;
 	</body>
 </html>
 <style is:global>
-
   body {
     background: linear-gradient( #FFC1A1, #FFB6C1, #A89FBD, #A8E4A0, #FFF4B2);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;  /* Added line */
     color: white;
+    font-family: 'IBM Plex Mono', cursive;
   }
 </style>
