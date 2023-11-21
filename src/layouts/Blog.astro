@@ -1,41 +1,14 @@
 ---
-import Header from "../components/Header.astro";
-import '@fontsource/ibm-plex-mono';
-interface Props {
-	title: string;
-}
-const { title } = Astro.props;
+import BaseLayout from "./BaseLayout.astro";
 ---
-
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Welcome!" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-    <meta name="theme-color" content="#FFC1A1">
-		<title>{title}</title>
-	</head>
-	<body>
-    <Header />
-    <div class="flex flex-col items-center justify-center min-h-scree pt-24 pl-2 pr-2 pb-8">
-      <post class="p-4 rounded-lg shadow-xl backdrop-filter backdrop-blur-lg bg-black bg-opacity-25 border border-black">
-	  	  <slot />
-      </post>
-    </div>
-	</body>
-</html>
+<BaseLayout>
+  <div class="flex flex-col items-center justify-center min-h-scree pt-24 pl-2 pr-2 pb-8">
+    <post class="p-4 rounded-lg shadow-xl backdrop-filter backdrop-blur-lg bg-black bg-opacity-25 border border-black">
+      <slot />
+    </post>
+  </div>
+</BaseLayout>
 <style>
-  body {
-    background: linear-gradient( #FFC1A1, #FFB6C1, #A89FBD, #A8E4A0, #FFF4B2);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    min-height: 100vh;  /* Added line */
-    color: white;
-    font-family: 'IBM Plex Mono', cursive;
-  }
   post :global(h1) {
     font-size: 2.5rem;
     font-weight: 600;
