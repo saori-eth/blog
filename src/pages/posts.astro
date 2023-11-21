@@ -1,7 +1,18 @@
 ---
-import Blog from "../layouts/Blog.astro"
+// import Blog from "../layouts/Blog.astro"
+import Layout from "../layouts/Layout.astro"
+const posts = await Astro.glob("./post/*.md")
 ---
-<Blog title="Posts">
-  <h1>Posts</h1>
-  <p>Coming soon...</p>
-</Blog>
+<Layout title="Posts">
+  <h1 class="text-4xl p-4">Posts</h1>
+  <div class="w-full md:w-2/3 lg:w-1/2 p-8 rounded-lg shadow-xl backdrop-filter backdrop-blur-lg bg-black bg-opacity-25 border border-black text-center">
+  {posts.map((p) => (
+    <div>
+      <a href={p.url} class="flex flex-row justify-between items-center hover:underline">
+        <h2>{p.frontmatter.title}</h2>
+        <p>{new Date(p.frontmatter.pubDate).toLocaleDateString()}</p>
+      </a>
+    </div>
+  ))}
+  </div>
+</Layout>

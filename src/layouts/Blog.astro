@@ -20,13 +20,14 @@ const { title } = Astro.props;
 	</head>
 	<body>
     <Header />
-    <div id="blog" class="p-4 flex flex-col items-center justify-center min-h-screen text-center">
-      <h1 class="text-4xl font-bold">{title}</h1>
-		<slot />
+    <div class="flex flex-col items-center justify-center min-h-scree pt-24 pl-2 pr-2 pb-8">
+      <post class="p-4 rounded-lg shadow-xl backdrop-filter backdrop-blur-lg bg-black bg-opacity-25 border border-black">
+	  	  <slot />
+      </post>
     </div>
 	</body>
 </html>
-<style is:global>
+<style>
   body {
     background: linear-gradient( #FFC1A1, #FFB6C1, #A89FBD, #A8E4A0, #FFF4B2);
     background-size: 100% 100%;
@@ -34,5 +35,15 @@ const { title } = Astro.props;
     min-height: 100vh;  /* Added line */
     color: white;
     font-family: 'IBM Plex Mono', cursive;
+  }
+  post :global(h1) {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  post :global(h2) {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
   }
 </style>
