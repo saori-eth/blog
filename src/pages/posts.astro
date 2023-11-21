@@ -5,8 +5,8 @@ const posts = await Astro.glob("./post/*.md")
 ---
 <Layout title="Posts">
   <h1 class="text-4xl p-4">Posts</h1>
-  <div class="w-full md:w-2/3 lg:w-1/2 p-8 rounded-lg shadow-xl backdrop-filter backdrop-blur-lg bg-black bg-opacity-25 border border-black text-center">
-  {posts.map((p) => (
+  <div class="w-10/12 md:w-2/3 lg:w-1/4 p-12 rounded-lg shadow-xl backdrop-filter backdrop-blur-lg bg-black bg-opacity-25 border border-black text-center">
+    {posts.map((p) => (
     <div>
       <a href={p.url} class="flex flex-row justify-between items-center hover:underline">
         <h2>{p.frontmatter.title}</h2>
