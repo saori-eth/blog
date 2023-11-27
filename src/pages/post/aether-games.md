@@ -18,7 +18,7 @@ Aether Games is a [studio](https://aethergames.io/) which is currently working o
 
 They have an ongoing presale for their token $AEG, which is used across the Aether ecosystem.
 
-**NOTE**: most info is derived from a pitchdeck posted on X. Their UI/Docs have very little detail about the sale
+**NOTE**: most info is derived from a [pitchdeck](https://x.com/KD_SINGH86/status/1658373637928542208?s=20) posted on X. Their UI/Docs have very little detail about the sale
 
 ## Utility
 
