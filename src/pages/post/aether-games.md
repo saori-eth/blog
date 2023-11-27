@@ -37,9 +37,9 @@ Presale:
 - Ongoing since [September](https://medium.com/@AetherGames/asset-tokenization-waeg-aeg-presale-launch-and-airdrop-for-genesis-holders-today-cfcb3a52b539)
 - ~$1m circulating
 - $45m fully diluted
-- 30% of supply being sold. 10% unlock at TGE
+- 2.5% of supply being sold. 10% unlock at TGE
 - 1 NFT = 1 $200 allocation. Can stack
-- 2% of sale available at time of writing (8.7m wAEG). You can't see this without owning an NFT.
+- 30% of sale available at time of writing (8.7m / 25m). You can't see this without owning an NFT.
   ![image](../../images/posts/aeither-games/aeg-supply.png)
 
 NFTs:
