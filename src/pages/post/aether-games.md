@@ -18,7 +18,7 @@ Aether Games is a [studio](https://aethergames.io/) which is currently working o
 
 They have an ongoing presale for their token $AEG, which is used across the Aether ecosystem.
 
-**NOTE**: most info is derived from a [pitchdeck](https://x.com/KD_SINGH86/status/1658373637928542208?s=20) posted on X. Their UI/Docs have very little detail about the sale
+**NOTE**: most info was derived from a [pitchdeck](https://x.com/KD_SINGH86/status/1658373637928542208?s=20) posted on X. And updated based off of a new pitchdeck which sent to me in DMs.
 
 ## Utility
 
@@ -37,7 +37,7 @@ Presale:
 - Ongoing since [September](https://medium.com/@AetherGames/asset-tokenization-waeg-aeg-presale-launch-and-airdrop-for-genesis-holders-today-cfcb3a52b539)
 - ~$1m circulating
 - $45m fully diluted
-- 2.5% of supply being sold. 10% unlock at TGE
+- 2.5% of supply being sold
 - 1 NFT = 1 $200 allocation. Can stack
 - 30% of sale available at time of writing (8.7m / 25m). You can't see this without owning an NFT.
   ![image](../../images/posts/aeither-games/aeg-supply.png)
