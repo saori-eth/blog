@@ -1,7 +1,7 @@
 ---
 title: "Aether Games. Illuvium beta?"
 layout: "../../layouts/Blog.astro"
-pubDate: 2023-11-21
+pubDate: 2023-11-27
 description: "Another web3 gaming studio. Backed by tons of money."
 author: "Saori"
 tags: ["Gaming", "NFT", "Trading"]
