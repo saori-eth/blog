@@ -37,6 +37,15 @@ import BaseLayout from "./BaseLayout.astro";
     list-style: disc;
     padding-left: 1rem;
   }
+  post :global(img) {
+    /* center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 6px;
+  }
   @media (min-width: 768px) {
   post {
     max-width: 66.66%; /* Set the max-width to 2/3 of the parent element */

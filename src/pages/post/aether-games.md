@@ -38,22 +38,26 @@ Presale:
 - ~$1m circulating
 - $45m fully diluted
 - 30% of supply being sold. 10% unlock at TGE
-- Need to hold a genesis NFT to purchase. ($275 usdc mint. cheaper on [OS](https://opensea.io/collection/aether-games-genesis))
+- 1 NFT = 1 $200 allocation. Can stack
+- 2% of sale available at time of writing (8.7m wAEG). You can't see this without owning an NFT.
+  ![image](../../images/posts/aeither-games/aeg-supply.png)
 
 NFTs:
 
 - 1144/3000 [Genesis NFTs](https://aethergames.io/mint) minted at time of writing. 130 day old contract.
 - [Founders pack](https://aethergames.io/mint) comes with an assortment of cards/assets and "holders benefits" for allo, whitelists, freemints etc
 
+_**IMPORTANT**: You can buy an NFT and keep sending it to new addresses purchase the presale with larger size. You can also WETH it afterwards no problem._
+
 Analog:
 
 - Illuvium
   - Mcap: $700m
-  - FDV: $1.1b
+  - FDV: $1.1
 
 ## Attention (narrative)
 
-This project is quite low-key. The last time I could find the presale being mentioned on X was in September and the most informative thread I found on it has 2 likes. They have 60k followers but I only have 2 mutuals who are following. I imagine they purchase social stats as many NFT projects tend to do.
+This project is quite lowkey. The last time I could find the presale being mentioned on X was in September and the most informative thread I found on it has 2 likes. They have 60k followers but I only have 2 mutuals who are following. I imagine they purchase social stats as many NFT projects tend to do.
 
 Most attention has from [investors](https://x.com/KD_SINGH86/status/1658373637928542208?s=20). Notably:
 
